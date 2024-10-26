@@ -1,0 +1,178 @@
+body { 
+    background-color: #373737 !important;
+    padding: 0;
+    margin: 0;
+}
+
+.my-image {
+    width: 30em; 
+    height: 30em;
+    border: 0.3em solid black;
+    display: block; 
+    margin: 0em auto; 
+    border-radius: 8em;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0);
+}
+
+.my-image2{
+    width: 35em; 
+    height: 35em;
+    display: block; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+}
+
+#img_href {
+    display: inline-block; 
+    padding: 0; 
+    margin: 0; 
+    border: none; 
+    text-decoration: none; 
+}
+
+.title {
+    text-align: center;
+    font-family: Arial; 
+    font-weight: bold;
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    margin: 0; 
+    padding: 0;
+    background-color: #2a2a2a
+}
+
+.about-me{
+    background-color: #333333;
+    padding: 0;
+}
+
+.about-me hr{
+    margin-top: 0;
+}
+
+.title-and-aboutme{
+    position: relative; 
+    background-color: #333333; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.center_container{
+    text-align: center;
+}
+
+.carousel-container{
+    width: 12cm; 
+    height: 12cm;
+    border: 5px solid black;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0);
+}
+
+p, h3{
+    text-align: center;
+    color: whitesmoke !important;
+}
+
+.accordion-button {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 1.5rem; 
+    border: none;
+    text-align: center;
+    display: block;
+    font-size: large;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #004691; 
+    color: #ffffff; 
+}
+
+.accordion-body{
+    background-color: rgb(235, 235, 235);
+    font-size: large;
+    text-align: center;
+    display: block;
+}
+
+.accordion-container {
+    position: relative; 
+    background-color: #333333; 
+    padding: 1em;
+    box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.copyright{
+    color: #ffffff;
+}
+
+.footer-container{
+    text-align: center;
+    display: block;
+}
+
+.footer-container i{
+    font-size: small;
+}
+
+.footer-container i div{
+    font-size: 1.2em;
+    color: rgb(22, 177, 234);
+}
+
+.footer-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+}
+
+.footer{
+    position: relative; 
+    background-color: #333333; 
+    padding-bottom: 0.4em;
+    box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.container{
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Apply styles only for screens smaller than 768px */
+@media (max-width: 767px) {
+    .my-image, .my-image2 {
+        width: 100%;    
+        height: auto;   
+    }
+
+    .footer-buttons button {
+        width: 100%;    
+        margin-top: 5px;
+    }
+
+    .about-me, .center_container, .accordion-container, .footer {
+        padding: 10px;  
+        margin: 10px;   
+    }
+
+    .title{
+        font-size: 5em;
+    }
+
+    .footer-buttons {
+        margin-top: 5px; 
+        gap: .4em;
+    }
+}
+
